@@ -223,11 +223,11 @@ $display_mostrar='none';
 <div id="campo_input" align='left'>
 <!--DIRECCION-->
 <b><?php echo "$definir_centro6";?></b>  
-<input type="text" maxlength="100"  autocomplete="off" name="direccion" style='width:170px;' value="<?php echo  "$direccion_DATOS" ; ?>" />
+<input type="text" maxlength="100"  autocomplete="off" name="direccion" style='width:200px;' value="<?php echo  "$direccion_DATOS" ; ?>" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <!--poblacion-->
 <b><?php echo "$definir_centro7";?> </b>
-<input type="text" maxlength="100" autocomplete="off" name="poblacion"  style='width:150px;' value="<?php echo  "$poblacion_DATOS" ; ?>" />
+<input type="text" maxlength="100" autocomplete="off" name="poblacion"  style='width:200px;' value="<?php echo  "$poblacion_DATOS" ; ?>" />
 </div>
 
 

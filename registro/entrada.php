@@ -111,6 +111,10 @@ var a="CERRAR";
 document.Form1.nombre_boton.value=a;
 document.Form1.submit();}
 
+function alerta(mensaje)
+{
+alert(mensaje);	
+	}
 
 
 
@@ -883,7 +887,7 @@ if($codigo_registro>=$primer_registro+1)
 else
 {
 ?>
-<button  onclick="window.location.href='#" style='float:left;padding: 0px;margin-left:8px;margin-top:-2px;' name="boton" type="button"  title="<?php echo $registrotexto40;?>"/>
+<button  onclick= "alerta('<?php echo $registrotexto76;?>');" style='float:left;padding: 0px;margin-left:8px;margin-top:-2px;' name="boton" type="button"  title="<?php echo $registrotexto40;?>"/>
 <img src="<?php echo "$ruta_absoluta/images/anterior.png";?>" style='width:25px'>
 </button>
 
@@ -902,7 +906,7 @@ if($codigo_registro<=$ult_registro-1)
 }
 else {
 	?>
-<button style='float:left;padding: 0px;margin-left:8px;margin-top:-2px;' name="boton" type="button" title="<?php echo $registrotexto39;?>"/>
+<button onclick= "alerta('<?php echo $registrotexto75;?>');" style='float:left;padding: 0px;margin-left:8px;margin-top:-2px;' name="boton" type="button" title="<?php echo $registrotexto39;?>"/>
 <img src="<?php echo "$ruta_absoluta/images/siguiente.png";?>" style='width:25px'>
 </button>
 <?php

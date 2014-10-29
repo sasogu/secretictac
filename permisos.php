@@ -45,7 +45,6 @@ $permitir_imprimir_libros=($row ["imprimir_libros"]);
 }
 
 ?>
-
 <div id="container" style="z-index:1">
 <!-- eleccion de idiomas en la pagina de inicio-->
 <div id="wb_Image1" style="position:absolute;left:900px;top:-20px;z-index:0" align="right">
