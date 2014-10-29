@@ -1,6 +1,6 @@
 <?php
 if(!isset ($_SESSION["idioma"]))
-$_SESSION["idioma"]="cas";
+$_SESSION["idioma"]="val";
 include("ruta_absoluta.php");
 include("idioma.php");
 include("colores.php");
