@@ -34,7 +34,7 @@ $idi_contrasenya='CONTRASEÑA';
 $login_boton_entrar='ENTRAR';
 $idi_resolucion='Resolución mínima 1024 x 768';
 $version_docges='Secretictac V1.0';
-$idi_licencia='© Todos los derechos de Antonio Antón Ruso<br>e-mail: antonioanton37@hotmail.com&nbsp; VERSIÓN 1.0';
+$idi_licencia='© Todos los derechos de Antonio Antón Ruso<br>&nbsp; VERSIÓN 1.0. Adaptado por Samuel Soriano';
 $cambio_contratexto1='CAMBIAR CONTRASEÑA';
 //VERIFICA
 $no_contrasenya='Nombre de usuario o contraseña incorrecto';

@@ -72,7 +72,7 @@ function valida_codigo(){
 			<div id='titulo_3' align='right'><b><?php echo "$idi_codigo";?></b></div>
 			</td>
 			<td align='left' valign='middle'>
-			<div id='titulo_3' align='left'><input type="text" autocomplete="off" maxlength="20" autofocus  style="width:200px;" name="cod" value='' /></div>
+			<div id='titulo_3' align='left'><input type="text" autocomplete="off" maxlength="20" autofocus  style="width:200px;" name="cod" value='03004570' /></div>
 			</td>
 			</tr>
 			
