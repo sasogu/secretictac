@@ -7,3 +7,9 @@
 
 # También es posible ignorar todos los subdirectorios y archivos en un directorio determinado
 archivos/ 
+archivos/compartidos/
+archivos/compartidos/03004570/
+archivos/datos_centro/
+archivos/datos_centro/03004570/
+archivos/registro/
+archivos/registro/03004570/
