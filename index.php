@@ -90,10 +90,29 @@ function valida_codigo(){
 			<tr>
 			<td align='left' valign='middle'>
 			<!--CONTRASENYA-->
+			<SCRIPT TYPE="text/javascript">
+<!--
+function submitenter(myfield,e)
+{
+var keycode;
+if (window.event) keycode = window.event.keyCode;
+else if (e) keycode = e.which;
+else return true;
+
+if (keycode == 13)
+   {
+   myfield.form.submit();
+   return false;
+   }
+else
+   return true;
+}
+//-->
+</SCRIPT>
 			<div id='titulo_3' align='right'><b><?php echo "$idi_contrasenya";?></b></div>
 			</td>
 			<td align='left' valign='middle'>
-			<div id='titulo_3' align='left'><input type="password" maxlength="50" id="Editbox2"  style="width:200px;" name="pass" value=''/></div>
+			<div id='titulo_3' align='left'><input type="password" onKeyPress="return submitenter(this,event)" maxlength="50" id="Editbox2"  style="width:200px;" name="pass" value=''/></div>
 			</td>
 			</tr>
 			
