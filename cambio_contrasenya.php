@@ -1,6 +1,8 @@
 <?php
+session_start();
 include ("seguridad.php");
 include ("base.php");
+$_SESSION["idioma_secretictac"]= "val";
 include ("conexion.php");
 conectar();
 

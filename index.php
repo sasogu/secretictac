@@ -1,7 +1,9 @@
 <?php
 session_start();
 include ("base.php");
+$_SESSION["idioma_secretictac"]= "val";
 $archivo="error_log";
+$cdcentro="03004570";
 if (file_exists($archivo))
 {
 unlink($archivo) ;
