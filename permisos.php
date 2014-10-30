@@ -1,11 +1,11 @@
 <?php
 include ("seguridad.php");
 include ("base.php");
-$usuario=$_SESSION['nombre_usuario'];
-$nick_usuario=$_SESSION['usuario'];
-$permiso=$_SESSION['acceso'];
-$upload_centro=$_SESSION['cod_centro'];
-$upload_anyo_academico=$_SESSION['anyo_academico'];
+$usuario=$_SESSION['nombre_usuario_secretictac'];
+$nick_usuario=$_SESSION['usuario_secretictac'];
+$permiso=$_SESSION['acceso_secretictac'];
+$upload_centro=$_SESSION['cod_centro_secretictac'];
+$upload_anyo_academico=$_SESSION['anyo_academico_secretictac'];
 if ($permiso=='ADMINISTRADOR')
 $tamanyo_letra_menu='12px';
 else
