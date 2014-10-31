@@ -48,7 +48,7 @@ $sql = mysql_fetch_array($resp);
                   if ($sql['primera_vez']=='si')
                   echo "<script>location.href='$ruta_absoluta/cambiar_contrasenya';</script>";
                   else
-                        echo '<script>location.href="inicio.php";</script>';
+                        echo "<script>location.href='$ruta_absoluta/registro_entrada/s';</script>";
 
                   }
 

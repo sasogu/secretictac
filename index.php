@@ -92,8 +92,8 @@ function valida_codigo(){
 			<tr>
 			<td align='left' valign='middle'>
 			<!--CONTRASENYA-->
-			<SCRIPT TYPE="text/javascript">
-<!--
+<SCRIPT TYPE="text/javascript">
+<!-- per a entrar amb la tecla intro després de posar contrasenya 
 function submitenter(myfield,e)
 {
 var keycode;
