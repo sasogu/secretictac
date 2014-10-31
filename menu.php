@@ -14,6 +14,7 @@
  
  			<ul class="item_secundario">
  						<li class='<?php echo $activado_inicio ;?>' ><a href="<?php echo "$ruta_absoluta";?>/inicio.php"><?php echo $pagina_inicio;?></a></li>
+ 						<li class='' ><a href="http://10.0.2.254/srv/easy-docges/inicio.php">Docges</a></li>
 						
  				</ul>
  </li>
